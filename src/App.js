@@ -2,7 +2,7 @@ import "./App.css";
 import Home from "./components/home/Home";
 import Result from "./components/result/Result";
 import { Routes, Route } from "react-router-dom";
-import { PATHS } from "./paths";
+// import { PATHS } from "./paths";
 
 export const centeredStyle = {
   width: "100vw",

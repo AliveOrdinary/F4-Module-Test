@@ -66,7 +66,7 @@ const Result = () => {
             <CardHeader alignSelf="center" fontSize="40px">
               {searchData.location.name}
             </CardHeader>
-            <RadioGroup defaultValue={toggleValue ? '2' : '1'} onChange={handleToggle}>
+            <RadioGroup ml="5" defaultValue={toggleValue ? '2' : '1'} onChange={handleToggle}>
               <Stack spacing={5} direction='row'>
                 <Radio colorScheme='red' value='1'>
                   Celsius
