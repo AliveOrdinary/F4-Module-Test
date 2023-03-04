@@ -53,7 +53,7 @@ const Result = () => {
   };
   useEffect(() => {
     getResults();
-  }, []);
+  });
 
   return (
     <div>
